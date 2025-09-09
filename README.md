@@ -35,21 +35,21 @@ The measurements are processed through an **analog signal conditioning circuit**
 ## 📂 Project Structure
 fuel-cell-monitoring-system/
 │
-├── hardware/
-│   ├── ProjectSeminar_2025.kicad_pcb        # PCB layout
-│   ├── ProjectSeminar_2025.kicad_sch        # Main schematic
-│   ├── Voltage measurement.kicad_sch        # Voltage sensing circuit
-│   ├── current_measurement.kicad_sch        # Current sensing circuit
+├──> hardware/
+│   ──> ProjectSeminar_2025.kicad_pcb        # PCB layout
+│   ── Projec>Seminar_2025.kicad_sch        # Main schematic
+│   ──> Voltage measurement.kicad_sch        # Voltage sensing circuit
+│   ──> current_measurement.kicad_sch        # Current sensing circuit
 │
-├── firmware/
-│   ├── platformio.ini                       # PlatformIO configuration
-│   ├── src/
-│   │   └── DAQ.c                            # Data acquisition firmware
+├──> firmware/
+│   ──> platformio.ini                       # PlatformIO configuration
+│   ──> src/
+│      ──> DAQ.c                            # Data acquisition firmware
 │
-├── docs/
-│   └── pcb_preview.png                      # PCB design image
+├──> docs/
+│   ──> pcb_preview.png                      # PCB design image
 │
-└── README.md
+└──> README.md
 
 ✅ Results
 
