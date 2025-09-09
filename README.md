@@ -33,3 +33,28 @@ The measurements are processed through an **analog signal conditioning circuit**
 ---
 
 ## 📂 Project Structure
+fuel-cell-monitoring-system/
+│
+├── hardware/
+│   ├── ProjectSeminar_2025.kicad_pcb        # PCB layout
+│   ├── ProjectSeminar_2025.kicad_sch        # Main schematic
+│   ├── Voltage measurement.kicad_sch        # Voltage sensing circuit
+│   ├── current_measurement.kicad_sch        # Current sensing circuit
+│
+├── firmware/
+│   ├── platformio.ini                       # PlatformIO configuration
+│   ├── src/
+│   │   └── DAQ.c                            # Data acquisition firmware
+│
+├── docs/
+│   └── pcb_preview.png                      # PCB design image
+│
+└── README.md
+
+✅ Results
+
+Achieved <2% error margin in voltage and current measurements.
+
+Reduced signal noise using precision op-amp-based conditioning circuits.
+
+Successfully implemented low-power, real-time monitoring for a 500W PEM fuel cell.
